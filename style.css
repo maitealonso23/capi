@@ -107,6 +107,15 @@ li {
   animation: scroll 10s infinite;
 }
 
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-30%);
+  }
+}
+
 img {
   width: 300px;
   height: auto;
